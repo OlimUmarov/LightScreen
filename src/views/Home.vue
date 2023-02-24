@@ -99,17 +99,17 @@
             filter: blur(5px);
         }
         .logo{
-            min-width: 80px;
-            min-height: 80px;
+            min-width: 150px;
+            min-height: 150px;
             display: flex;
             justify-content: center;
             left: 25%;
             top: 25%;
             align-items: center;
-            border-radius: 50px;
+            border-radius: 100px;
             background: var(--home-background);
             span{
-                font-size: 3rem;
+                font-size: 8rem;
                 color: var(--primary);
             }
         }
@@ -233,11 +233,9 @@
 
 
             .options{
-                width: 500px;
-                height: 400px;
+                width: 800px;
+                height: 600px;
                 display: flex;
-                justify-content: center;
-                align-items: center;
                 gap: 25px;
                 background: var(--home-background);
 
@@ -246,8 +244,8 @@
                 .host-meeting{
                     border-radius: 25px;
                     border: 1px solid var(--grey);
-                    width: 220px;
-                    height: 300px;
+                    width: 330px;
+                    height: 400px;
                     gap: 10px;
                     justify-content: space-between;
                     display: flex;
@@ -262,22 +260,22 @@
                     .host-title{
                         left: 10px;
                         top: 20px;
-                        font-size: 1.8rem;
+                        font-size: 2rem;
                         font-weight: 800;
                         margin-bottom: 1rem;
                     }
                 }
                 .button{
-                    width: 150px;
-                    height: 40px;
+                    width: 200px;
+                    height: 50px;
                     transition: 0.2s ease-in;
                     background: var(--button);
                     color: var(--button-light);
                     font-weight: 300;
 
                     bottom: 20px;
-                    border-radius: 5px;
-                    font-size: 1.5rem;
+                    border-radius: 10px;
+                    font-size: 1.7rem;
                     &:last-child{
                         padding: 5px 0;
                     }
@@ -291,8 +289,8 @@
                 }
 
                 .join-meeting{
-                    width: 220px;
-                    height: 300px;
+                    width: 330px;
+                    height: 400px;
                     display: flex;
                     position: relative;
                     flex-direction: column;
@@ -308,12 +306,12 @@
                     }
 
                     .join-title{
-                        font-size: 1.8rem;
+                        font-size: 2rem;
                         font-weight: 800;
                         margin-bottom: 1rem;
                     }
                     .join-input{
-                        width: 150px;
+                        width: 200px;
                         height: 40px;
                         border: 1px solid #c7c7c7;
                         outline: none;
