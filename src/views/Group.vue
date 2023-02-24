@@ -1,14 +1,12 @@
 <template>
-
-    <div class="about">
-        About
-    </div>
-
+    <section class="group">
+        Group
+    </section>
 </template>
 
 <script>
     export default {
-        name: "About"
+        name: "Group"
     }
 </script>
 

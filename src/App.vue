@@ -3,7 +3,6 @@
     <div class="app">
         <SideBar/>
         <router-view/>
-        <router-link to="/about"/>
     </div>
 
 </template>

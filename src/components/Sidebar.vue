@@ -14,15 +14,15 @@
               <span class="material-icons">home</span>
               <span class="text">Home</span>
           </router-link>
-            <router-link class="button" to="/team">
+            <router-link class="button" to="/group">
                 <span class="material-icons">group</span>
                 <span class="text">Group</span>
             </router-link>
-            <router-link class="button" to="/contact">
+            <router-link class="button" to="/history">
                 <span class="material-icons">history</span>
                 <span class="text">History</span>
             </router-link>
-            <router-link class="button" to="/about">
+            <router-link class="button" to="/get-started">
                 <span class="material-icons">input</span>
                 <span class="text">Get Started</span>
             </router-link>
@@ -68,7 +68,7 @@
 
 
         &.is-expanded{
-            width: var(--sidebar-width);
+            min-width: var(--sidebar-width);
 
             .menu-toggle-wrap{
                 top: -3rem;
@@ -128,11 +128,11 @@
                     background: var(--dark-alt);
 
                     .material-icons, .text {
-                        color: var(--primary);
+                        color: var(--button);
                     }
                 }
                 &.router-link-exact-active{
-                 border-right: 5px solid var(--primary);
+                 border-right: 5px solid var(--button);
                 }
             }
         }
@@ -172,7 +172,7 @@
                 }
                 &:hover{
                     .material-icons{
-                        color: var(--primary);
+                        color: var(--button);
                         transform: translateX(0.5rem);
                     }
                 }

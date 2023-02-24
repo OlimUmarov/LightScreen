@@ -5,7 +5,13 @@
   --dark: #1e293b;
   --dark-alt: #334155;
   --light: #f1f5f9;
-  --sidebar-width: 400px
+  --button: #048EF3;
+  --button-light: #F9F9F9;
+  --sidebar-width: 300px;
+  --home-background: #171B29;
+  --home-header: #262C42;
+  --home-messages: #202538;
+
 }
 *{
   margin: 0;
