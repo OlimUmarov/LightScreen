@@ -1,0 +1,19 @@
+<template>
+    <aside>
+        Sidebar
+    </aside>
+</template>
+
+<script setup>
+
+
+</script>
+
+<style lang="scss" scoped>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Fira Sans', sans-serif;
+    }
+</style>
