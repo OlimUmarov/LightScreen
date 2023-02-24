@@ -14,17 +14,17 @@
               <span class="material-icons">home</span>
               <span class="text">Home</span>
           </router-link>
-            <router-link class="button" to="/about">
-                <span class="material-icons">visibility</span>
-                <span class="text">About</span>
-            </router-link>
             <router-link class="button" to="/team">
                 <span class="material-icons">group</span>
-                <span class="text">Team</span>
+                <span class="text">Group</span>
             </router-link>
             <router-link class="button" to="/contact">
-                <span class="material-icons">email</span>
-                <span class="text">Contact</span>
+                <span class="material-icons">history</span>
+                <span class="text">History</span>
+            </router-link>
+            <router-link class="button" to="/about">
+                <span class="material-icons">input</span>
+                <span class="text">Get Started</span>
             </router-link>
         </div>
 
@@ -56,7 +56,7 @@
     aside{
         display: flex;
         flex-direction: column;
-        width: calc(2rem + 32px);
+        width: calc(3rem + 32px);
         min-height: 100vh;
         overflow: hidden;
         padding: 1rem;
@@ -84,7 +84,7 @@
             h3{
                 color: var(--grey);
                 margin-bottom: 0.5rem;
-                font-size: 0.875rem;
+                font-size: 1rem;
                 text-transform: uppercase;
             }
             .button{
@@ -95,7 +95,7 @@
         }
 
         h3, .button .text {
-            font-size: 1rem;
+            font-size: 1.2rem;
             opacity: 0;
             transition: 0.3s ease-out;
         }
